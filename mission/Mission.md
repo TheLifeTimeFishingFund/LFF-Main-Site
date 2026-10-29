@@ -13,32 +13,33 @@ We envision a future where every person has the opportunity to responsibly parti
 
 Beginning in the United States and its territories, we aim to build lasting resources, community partnerships, and funding programs that strengthen outdoor heritage for generations to come.
 
-#### Why This Exists
+## Why This Exists
 Many people who would benefit from outdoor participation face financial, informational, or accessibility barriers.
 
 The LifeTime Fishing Fund exists to help remove those barriers while promoting responsible stewardship of the waters, wildlife, and public resources that support outdoor recreation.
 
-##### Support the Mission
+## Support the Mission
 Every contribution helps support the development of programs, resources, outreach efforts, and future initiatives aligned with the mission.
 
-Gifts (non-tax-deductible):
+## Gifts (non-tax-deductible):
 
 👉 https://gofund.me/dbf01be38
 
-Transparency
+## Transparency
 Transparency is a core operating principle.
 
-Monthly reports, fund activity, pool balances, and payout records are maintained within the /ledger directory whenever available.
+## Monthly reports, fund activity, pool balances, and payout records are maintained within the /ledger directory whenever available.
 
-###### Repository Structure
+## Repository Structure
 /ledger      Financial reporting and transparency records
 /mission     Mission and organizational documents
 /brand       Brand development and outreach materials
 /docs        Public resources and supporting documentation
-####### Looking Ahead
+
+## Looking Ahead
 The LifeTime Fishing Fund is committed to building accessible resources, conservation awareness, educational tools, and community support systems that strengthen fishing, hunting, stewardship, and outdoor heritage across the United States and its territories.
 
-Our goal is simple:
+## Our goal is simple:
 
 More access. Better stewardship. Stronger outdoor traditions.
 
