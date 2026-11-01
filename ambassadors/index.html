@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Ambassador Program — LifeTime Fishing Fund</title>
@@ -18,6 +16,7 @@
 
         h1, h2, h3 {
             color: #ffffff;
+            margin-top: 0;
         }
 
         /* Hero block style wrapper */
@@ -30,9 +29,14 @@
             border: 1px solid #242936;
         }
 
+        .hero p {
+            color: #8b949e;
+            font-size: 1.1rem;
+        }
+
         .hero-buttons a {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 24px;
             margin: 10px;
             border-radius: 6px;
             text-decoration: none;
@@ -50,7 +54,7 @@
             border: 1px solid #30363d;
         }
 
-        /* Pure gamified CSS framing for the progression matrix */
+        /* Pure gamified progression matrix */
         .tier-card {
             border: 1px solid #30363d;
             padding: 25px;
@@ -76,10 +80,9 @@
         /* Fog of War structural blur layer */
         .mystery-blur {
             filter: blur(6px);
-            opacity: 0.25;
+            opacity: 0.15;
             user-select: none;
             pointer-events: none;
-            transition: filter 0.3s ease;
         }
 
         /* Security classification locked alert element */
@@ -98,23 +101,29 @@
             letter-spacing: 1px;
             z-index: 10;
         }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #484f58;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
-
 <body>
 
 <section class="hero">
     <h1>LFF Ambassador Program</h1>
     <p>Earn Street Credit. Unlock Tools. Lead Conservation.</p>
     <div class="hero-buttons">
-        <a class="cta-button" href="https://google.com">Apply for Roster & Ambassador Status</a>
+        <a class="cta-button" href="https://google.com">Apply for Roster & Status</a>
         <a class="cta-secondary" href="../index.html">Back to Main Site</a>
     </div>
 </section>
 
 <section class="progression-framework">
     <h2>The Tier Ladder</h2>
-    <p>No sales pressure. No donation quotas. Just pure street credit and community impact.</p>
+    <p style="color: #8b949e; margin-bottom: 25px;">No sales pressure. No donation quotas. Just pure street credit and community impact.</p>
     
     <!-- Tier 1: Fully Visible -->
     <div class="tier-card">
@@ -125,7 +134,7 @@
 
     <!-- Tier 2: Hidden Mystery -->
     <div class="tier-card tier-locked">
-        <span class="lock-badge">🔒 Locked (Requires 500 XP)</span>
+        <span class="lock-badge">🔒 Locked (500 XP)</span>
         <h3>Tier 2: [REDACTED OUTREACH LEVEL]</h3>
         <div class="mystery-blur">
             <p><strong>Unlocks:</strong> Printing tools, printable QR cards, flyers, and physical stickers.</p>
@@ -135,17 +144,17 @@
 
     <!-- Tier 3: Hidden Mystery -->
     <div class="tier-card tier-locked">
-        <span class="lock-badge">🔒 Locked (Requires 1,000 XP)</span>
+        <span class="lock-badge">🔒 Locked (1,000 XP)</span>
         <h3>Tier 3: [REDACTED ELITE LEVEL]</h3>
         <div class="mystery-blur">
             <p><strong>Unlocks:</strong> Regional seasonal windows, species target patterns, and pop-up assets.</p>
-            <p><strong>Activity:</strong> Staffing live local activations and regional strategy strategy meetups.</p>
+            <p><strong>Activity:</strong> Staffing live local activations and regional strategy meetups.</p>
         </div>
     </div>
 
     <!-- Tier 4: Hidden Mystery -->
     <div class="tier-card tier-locked">
-        <span class="lock-badge">🔒 Locked (Requires 2,500 XP)</span>
+        <span class="lock-badge">🔒 Locked (2,500 XP)</span>
         <h3>Tier 4: [REDACTED COMMAND LEVEL]</h3>
         <div class="mystery-blur">
             <p><strong>Unlocks:</strong> Map engine control tiers, full live intel tools, and deployment privileges.</p>
