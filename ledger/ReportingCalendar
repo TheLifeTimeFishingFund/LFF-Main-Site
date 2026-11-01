@@ -1,0 +1,52 @@
+<section>
+    <h2>Reporting Calendar</h2>
+
+    <p>
+        The Lifetime Fishing Fund publishes regular reports to document mission
+        activity, financial performance, and conservation impact.
+    </p>
+
+    <table>
+        <tr>
+            <th>Report</th>
+            <th>Coverage Period</th>
+            <th>Publication Date</th>
+        </tr>
+
+        <tr>
+            <td>Q4 2026 Founding Report</td>
+            <td>October 1, 2026 - December 31, 2026</td>
+            <td>January 2027</td>
+        </tr>
+
+        <tr>
+            <td>Q1 2027 Report</td>
+            <td>January 1, 2027 - March 31, 2027</td>
+            <td>April 2027</td>
+        </tr>
+
+        <tr>
+            <td>Q2 2027 Report</td>
+            <td>April 1, 2027 - June 30, 2027</td>
+            <td>July 2027</td>
+        </tr>
+
+        <tr>
+            <td>Q3 2027 Report</td>
+            <td>July 1, 2027 - September 30, 2027</td>
+            <td>October 2027</td>
+        </tr>
+
+        <tr>
+            <td>Q4 2027 Report</td>
+            <td>October 1, 2027 - December 31, 2027</td>
+            <td>January 2028</td>
+        </tr>
+
+        <tr>
+            <td>2027 Annual Report</td>
+            <td>January 1, 2027 - December 31, 2027</td>
+            <td>January 2028</td>
+        </tr>
+    </table>
+</section>
