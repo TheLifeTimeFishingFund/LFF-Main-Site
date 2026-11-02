@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ambassador Program — LifeTime Fishing Fund</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://googletagmanager.com"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CVGCBXJ2L0');
+    </script>
+
     <style>
-        /* Base page cleanup */
         body {
             background-color: #0d0e12;
             color: #f0f2f5;
@@ -19,7 +29,6 @@
             margin-top: 0;
         }
 
-        /* Hero block style wrapper */
         .hero {
             text-align: center;
             padding: 40px 20px;
@@ -54,7 +63,6 @@
             border: 1px solid #30363d;
         }
 
-        /* Pure gamified progression matrix */
         .tier-card {
             border: 1px solid #30363d;
             padding: 25px;
@@ -62,11 +70,9 @@
             border-radius: 10px;
             position: relative;
             background: #161920;
-            overflow: hidden;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         }
 
-        /* Redacted tier card overlays */
         .tier-locked {
             border: 1px dashed #484f58;
             background: #0f1115;
@@ -74,22 +80,12 @@
 
         .tier-locked h3 {
             color: #8b949e;
-            font-family: monospace;
         }
 
-        /* Fog of War structural blur layer */
-        .mystery-blur {
-            filter: blur(6px);
-            opacity: 0.15;
-            user-select: none;
-            pointer-events: none;
-        }
-
-        /* Security classification locked alert element */
         .lock-badge {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 25px;
+            right: 25px;
             background: #da3633;
             color: white;
             padding: 6px 12px;
@@ -99,14 +95,6 @@
             text-transform: uppercase;
             font-family: monospace;
             letter-spacing: 1px;
-            z-index: 10;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #484f58;
-            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -116,8 +104,8 @@
     <h1>LFF Ambassador Program</h1>
     <p>Earn Street Credit. Unlock Tools. Lead Conservation.</p>
     <div class="hero-buttons">
-        <a class="cta-button" href="https://google.com">Apply for Roster & Status</a>
-        <a class="cta-secondary" href="../index.html">Back to Main Site</a>
+        <a class="cta-button" href="https://lifetimefishingfund.org">Apply for Roster & Status</a>
+        <a class="cta-secondary" href="https://lifetimefishingfund.org">Back to Main Site</a>
     </div>
 </section>
 
@@ -132,34 +120,11 @@
         <p><strong>Activity:</strong> Spread digital awareness and attend local boat ramps.</p>
     </div>
 
-    <!-- Tier 2: Hidden Mystery -->
+    <!-- Tier 2: Simple Locked Gateway -->
     <div class="tier-card tier-locked">
         <span class="lock-badge">🔒 Locked (500 XP)</span>
-        <h3>Tier 2: [REDACTED OUTREACH LEVEL]</h3>
-        <div class="mystery-blur">
-            <p><strong>Unlocks:</strong> Printing tools, printable QR cards, flyers, and physical stickers.</p>
-            <p><strong>Activity:</strong> Dropping outreach materials at local priority launch zones.</p>
-        </div>
-    </div>
-
-    <!-- Tier 3: Hidden Mystery -->
-    <div class="tier-card tier-locked">
-        <span class="lock-badge">🔒 Locked (1,000 XP)</span>
-        <h3>Tier 3: [REDACTED ELITE LEVEL]</h3>
-        <div class="mystery-blur">
-            <p><strong>Unlocks:</strong> Regional seasonal windows, species target patterns, and pop-up assets.</p>
-            <p><strong>Activity:</strong> Staffing live local activations and regional strategy meetups.</p>
-        </div>
-    </div>
-
-    <!-- Tier 4: Hidden Mystery -->
-    <div class="tier-card tier-locked">
-        <span class="lock-badge">🔒 Locked (2,500 XP)</span>
-        <h3>Tier 4: [REDACTED COMMAND LEVEL]</h3>
-        <div class="mystery-blur">
-            <p><strong>Unlocks:</strong> Map engine control tiers, full live intel tools, and deployment privileges.</p>
-            <p><strong>Activity:</strong> Leading official conservation events and managing local area flights.</p>
-        </div>
+        <h3>Tier 2: Outreach Ambassador</h3>
+        <p style="color: #8b949e; margin-bottom: 0;">Hit 500 Experience Points through digital engagement and local ramp presence to unlock physical toolkit deployments.</p>
     </div>
 </section>
 
